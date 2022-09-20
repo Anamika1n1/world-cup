@@ -127,7 +127,7 @@ body{
         flex-direction: column;
         justify-content: center;
         background-color: black;
-        width: 253px;
+        width: 67px;
 
     }
     .players-list{
@@ -135,6 +135,11 @@ body{
     }
     .terms{
         display: none;
+    }
+    .header-title{
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
     }
     
 }
