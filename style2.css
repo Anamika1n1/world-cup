@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
 .header-display{
     display: flex;
     width: 100%;
@@ -37,30 +36,47 @@ body{
     height: 613px;
     padding-left: 30px;
 }
-.players-list{
+
+/* header section end */
+   
+/* main section starts from here */
+.flags{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: space-evenly; */
+    column-gap: 35px;
+    margin-right: 100px;
+    row-gap: 35px;
+}
+.flag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 228px;
+    height: 164px;
+}
+.flag-thumbnail{
+    display: flex;
+}
+.match-time{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 6em;
-    
 }
-.players{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-   
-    row-gap: 30px;
-    column-gap: 20px;
+.match-schedule h3 h4{
+    margin: 0 0;
 }
-
-.player-button{
-    padding: 4px 16px;
-    font-weight: 500;
-    font-size: 16px;
-    margin-top: 20px;
-   
-}
-.player-heading{
+.match-title-1{
+    margin: 0 0;
     font-weight: 600;
- font-size: 18px;
+    font-size: 20px;
+}
+.match-title-2{
+    margin: 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    color:  #4D4D4D;
 }
 .aside-section{
     display: flex;
@@ -83,7 +99,6 @@ body{
     font-weight: 500;
     font-size: 20px;
     /* text-align: center; */
-    max-width: 30px;
   
 
 }
@@ -93,15 +108,19 @@ body{
      padding: 10px 20px;
      text-align: center;
      border-radius: 10px;
+     /* background-color: #E03B8B; */
+}
+.unique-button1{
+    background-color: #E03B8B;
 }
 .unique-button2{
     padding: 10px 20px;
+    
 }
 .unique-button3{
     padding: 10px 20px;
-    background-color: #E03B8B;
+    /* background-color: #E03B8B; */
 }
-
 .terms{
     background-color: black;
     text-align: center;
@@ -119,22 +138,5 @@ body{
     padding-left: 20px;
     font-weight: 500;
     font-size: 16px;
-    
-}
-@media only screen and (max-width:576px) {
-    .header-display{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: black;
-        width: 253px;
-
-    }
-    .players-list{
-        display: none;
-    }
-    .terms{
-        display: none;
-    }
     
 }
