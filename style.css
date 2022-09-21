@@ -66,7 +66,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
-    width: 25%;
+    /* width: 25%; */
     height: 170px;
     /* align-items: center; */
     justify-content: space-evenly;
@@ -156,7 +156,21 @@ body{
 
     }
     .players-list{
-        display: none;
+        
+            display: flex;
+            flex-direction: column-reverse;
+    }
+    .aside-button{
+        padding: 10px 40px;
+    }
+    .aside-section{
+        background-color: white;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 15px;
+        margin-top: 20px;
     }
     .terms{
         display: none;
