@@ -172,8 +172,18 @@ body{
         margin-left: 15px;
         margin-top: 20px;
     }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        padding-top: 20px;
+    }
     .terms{
-        display: none;
+        height: 395px;
+    }
+    .footer-heading{
+        margin: 0;
     }
    
     
