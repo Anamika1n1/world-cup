@@ -6,11 +6,11 @@ body{
     display: flex;
     width: 100%;
     background-color: #1B98F5;
-    width: 1147px;
     height: 612px;
     border-radius: 30px;
     padding-top: 33px;
-    padding-left: 106px;
+    justify-content: space-around;
+
 }
 .header-title{
     font-weight: 700;
@@ -41,6 +41,7 @@ body{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 6em;
+    justify-content: space-evenly;
     
 }
 .players{
@@ -66,9 +67,10 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
-    /* width: 25%; */
-    height: 170px;
-    /* align-items: center; */
+    width: 18%;
+    max-width: 18%;
+    height: 218px;
+    max-height: 218px;
     justify-content: space-evenly;
     padding: 10px 20px;
     border-radius: 10px;
