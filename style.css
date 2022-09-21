@@ -125,9 +125,15 @@ body{
     .header-display{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         background-color: black;
-        width: 67px;
+        width: 165px;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 0; */
+        padding-left: 0;
+        height: 352px;
+        border-radius: 7px;
 
     }
     .players-list{
@@ -137,9 +143,24 @@ body{
         display: none;
     }
     .header-title{
-        font-weight: 700;
         font-size: 20px;
-        color: white;
+       
+        
+    }
+    .header-description{
+        font-size: 10px;
+    }
+    .header-thumbnail img{
+        width: 100px;
+        height: 100px;
+        padding-top: 0;
+
+    }
+    .live-button{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 10px;
+
     }
     
 }
