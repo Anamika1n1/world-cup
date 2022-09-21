@@ -125,15 +125,34 @@ body{
     .header-display{
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         background-color: black;
-        width: 165px;
+        width: 362px;
         text-align: center;
         align-items: center;
-        /* margin-left: 0; */
         padding-left: 0;
-        height: 352px;
+        height: 670px;
         border-radius: 7px;
+
+    }
+    .header-title{
+        font-size: 30px;
+       
+        
+    }
+    .header-description{
+        font-size: 10px;
+    }
+    .header-thumbnail img{
+        width: 325px;
+        height: 327px;
+        padding-top: 0;
+        margin-top: 45px;
+
+    }
+    .live-button{
+        font-size: 15px;
+        padding: 10px 30px;
+        margin-top: 30px;
 
     }
     .players-list{
@@ -142,25 +161,6 @@ body{
     .terms{
         display: none;
     }
-    .header-title{
-        font-size: 20px;
-       
-        
-    }
-    .header-description{
-        font-size: 10px;
-    }
-    .header-thumbnail img{
-        width: 100px;
-        height: 100px;
-        padding-top: 0;
-
-    }
-    .live-button{
-        font-size: 10px;
-        padding: 5px 10px;
-        margin-top: 10px;
-
-    }
+   
     
 }
